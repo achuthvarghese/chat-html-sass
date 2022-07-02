@@ -217,6 +217,9 @@ body .container {
     display: inline-block;
     width: 70%;
   }
+  #chat #room #room-header #room-details span:last-child {
+    display: none;
+  }
 }
 @media screen and (min-width: 768px) {
   #chat #room-list {

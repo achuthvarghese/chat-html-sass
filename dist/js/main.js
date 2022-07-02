@@ -17,3 +17,8 @@ function showroom() {
         document.getElementById("room-list").style.display = "inline-block"
     }
 }
+
+window.addEventListener("resize", function (event) {
+    showroomlist()
+    showroom()
+})
