@@ -12,12 +12,41 @@
 
     <div class="container">
         <div id="chat">
-            <div id="room-list"></div>
+            <div id="room-list">
+                <div id="room-list-header">
+                    <span>Chats</span>
+                </div>
+                <div class="room">
+                    <div class="room-picture"><span><img src="images/avatars/avatar_01.svg"></span></div>
+                    <div class="room-details" onclick="showroom()">
+                        <span>Room 1</span>
+                    </div>
+                </div>
+                <div class="room">
+                    <div class="room-picture"><span><img src="images/avatars/avatar_02.svg"></span></div>
+                    <div class="room-details" onclick="showroom()">
+                        <span>Room 2</span>
+                    </div>
+                </div>
+                <div class="room">
+                    <div class="room-picture"><span><img src="images/avatars/avatar_03.svg"></span></div>
+                    <div class="room-details" onclick="showroom()">
+                        <span>Room 3</span>
+                    </div>
+                </div>
+                <div class="room">
+                    <div class="room-picture"><span><img src="images/avatars/avatar_04.svg"></span></div>
+                    <div class="room-details" onclick="showroom()">
+                        <span>Room 4</span>
+                    </div>
+                </div>
+            </div>
             <div id="room">
                 <div id="room-header">
-                    <div id="room-picture"><span><img src="images/avatars/avatar01.svg"></span></div>
+                    <div id="room-picture"><span><img src="images/avatars/avatar_01.svg"></span></div>
                     <div id="room-details">
                         <span>Room 1</span>
+                        <span onclick="showroomlist()">x</span>
                     </div>
                 </div>
                 <div id="room-messages">
@@ -41,5 +70,6 @@
         </div>
     </div>
     
+    <script src="../dist/js/main.js"></script>
 </body>
 </html>
